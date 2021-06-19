@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">LearnON</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="ourvision">Our Vision</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+    <string name="anouncement">Announcement</string>
+    <string name="contactus">Contact Us</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+  <!--  profile drawer item-->
+
+    <string name="menu_profile">My Profile</string>
+    <string name="share_app">Share The App</string>
+    <string name="progress">Progress</string>
+    <string name="notification">Notification</string>
+    <string name="logout">Logout</string>
+
+    <string name="your_desire">Your Desire for learning Begins</string>
+    <string name="continue_with">Continue With Mobile Number</string>
+    <string name="create_account">Create Account</string>
+    <string name="next_for_create_account">Next For create Account</string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="select_your_occupation">Select Your Occupation</string>
+    <string name="student">Student</string>
+    <string name="next">Next</string>
+    <string name="teacher">Teacher</string>
+    <string name="please_give_your_information">Please give your information</string>
+    <string name="student_name">STUDENT NAME</string>
+    <string name="age">AGE</string>
+    <string name="class_title">CLASS</string>
+    <string name="teacher_name">TEACHER NAME</string>
+    <string name="institution_name">INSTITUTION NAME</string>
+    <string name="teaching_subjects">TEACHING SUBJECTS</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="learnon">learnON</string>
+    <string name="forgot_password">Forgot Password</string>
+
+
+    <string name="home">Home</string>
+    <string name="exam">Exam</string>
+    <string name="group_study">Group Study</string>
+    <string name="library">Library</string>
+    <string name="more">More</string>
+</resources>

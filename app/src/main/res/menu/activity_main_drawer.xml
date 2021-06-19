@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_ourvision"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/ourvision" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/contactus" />
+        <item
+            android:id="@+id/nav_terms_conditions"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/terms_conditions" />
+        <item
+            android:id="@+id/nav_announce"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/anouncement" />
+
+    </group>
+  <!--  <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/menu_profile" />
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/share_app" />
+            <item
+                android:id="@+id/nav_progress"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/progress" />
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/notification" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/logout" />
+        </menu>
+    </item>-->
+</menu>
+
+

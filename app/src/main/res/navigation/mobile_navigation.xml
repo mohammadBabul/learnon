@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.education.drawerdemo.ui.home.ParentFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_ourvision"
+        android:name="com.education.drawerdemo.ui.vision.VisionFragment"
+        android:label="@string/ourvision"
+        tools:layout="@layout/fragment_vision" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.education.drawerdemo.ui.conatct.ContactFragment"
+        android:label="@string/contactus"
+        tools:layout="@layout/fragment_term_conditions" />
+    <fragment
+        android:id="@+id/nav_terms_conditions"
+        android:name="com.education.drawerdemo.ui.terms_conditions.TermFragment"
+        android:label="@string/terms_conditions"
+        tools:layout="@layout/fragment_term_conditions" />
+    <fragment
+        android:id="@+id/nav_announce"
+        android:name="com.education.drawerdemo.ui.announcement.AnnouncementFragment"
+        android:label="@string/anouncement"
+        tools:layout="@layout/fragment_term_conditions" />
+
+
+</navigation>

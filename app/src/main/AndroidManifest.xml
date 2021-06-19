@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.education.drawerdemo">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DrawerDemo">
+        <activity
+            android:name=".ui.activity.WelcomeActivity"
+            android:label="@string/app_name"></activity>
+        <activity android:name=".ui.activity.A">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".ui.activity.EnterMobileNumberActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar"></activity>
+
+        <activity
+            android:name=".ui.activity.VerificationActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar"></activity>
+
+
+        <activity
+            android:name=".ui.activity.EnterPaswwordActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar"></activity>
+
+        <activity
+            android:name=".ui.activity.ForgetPasswordActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar"></activity>
+        <activity
+            android:name=".ui.activity.SelectTSActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar"></activity>
+        <activity
+            android:name=".ui.activity.InfoStudentActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar"></activity>
+        <activity
+            android:name=".ui.activity.InfoTeacherActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ui.activity.ProfileHomeActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar" />
+        <activity
+            android:name=".ui.profile_ui.ProfileActivity"
+            android:theme="@style/Theme.DrawerDemo.NoActionBar" />
+        <activity
+            android:name=".ui.profile_ui.ProgressActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ui.profile_ui.NotificationActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+    </application>
+
+</manifest>
